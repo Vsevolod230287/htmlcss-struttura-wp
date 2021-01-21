@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: red;
 }
 
 .container {
@@ -18,9 +17,7 @@ header {
   width: 100%;
 }
 
-.mt {
-  margin-top: 15px;
-}
+
 
 .p-bottom {
   padding-bottom: 10px;
@@ -40,6 +37,9 @@ header {
 
 .bg_blue {
   background-color: #0086FC;
+}
+.bg_purple {
+  background-color: #8801FE;
 }
 
 .section_1 {
@@ -63,8 +63,15 @@ header {
 .col_50 {
   width: 50%;
 }
+.mt-15 {
+  margin-top: 15px;
+}
 
-.mb-10 {
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-15 {
   margin-bottom: 15px;
 }
 
@@ -88,4 +95,8 @@ header {
 .h-70 {
   height: 70px;
 
+}
+
+footer{
+  height: 7vh;
 }
